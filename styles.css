@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /*background-image: url('A4-4.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.page-background-show {
+    background-image: url('SHOW.png');
+}
+
+.page-background-r1 {
+    background-image: url('R1.png');
+}
+
+.page-background-r2 {
+    background-image: url('R2.png');
+}
+
+.page-background-r3 {
+    background-image: url('R3.png');
+}
+
+.page-background1 {
+    background-image: url('A4-4.png');
+}
+
+.page-background2 {
+    background-image: url('A4-5.png');
+}
+
+.page-background3 {
+    background-image: url('A4-6.png');
+}
+
+.content-container {
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 40%;
+}
+
+.button-container button {
+    width: 400px;
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+    background-color: #ffffdd;
+}
+
+#bottom-right-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#bottom-right-button:hover {
+    background-color: #ffd;
+}
